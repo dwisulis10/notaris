@@ -1,0 +1,1135 @@
+INFO - 2023-07-28 01:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 01:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 01:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 01:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 01:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 01:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 01:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 01:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 01:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 01:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 01:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 01:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 01:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 01:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 01:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 01:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 01:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 01:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 01:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 02:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 02:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 02:05:29 --> Undefined array key "nomor_ktp"
+in APPPATH\Controllers\Akta.php on line 93.
+ 1 APPPATH\Controllers\Akta.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_ktp"', 'C:\\xampp\\htdocs\\notaris\\app\\Controllers\\Akta.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->loadDataKlien()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 02:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 02:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 02:06:47 --> Undefined array key "nomor_ktp"
+in APPPATH\Controllers\Akta.php on line 93.
+ 1 APPPATH\Controllers\Akta.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_ktp"', 'C:\\xampp\\htdocs\\notaris\\app\\Controllers\\Akta.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->loadDataKlien()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 02:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 02:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 02:09:18 --> Undefined array key "nomor_ktp"
+in APPPATH\Controllers\Akta.php on line 94.
+ 1 APPPATH\Controllers\Akta.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_ktp"', 'C:\\xampp\\htdocs\\notaris\\app\\Controllers\\Akta.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->loadDataKlien()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 02:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 02:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-28 02:12:19 --> mysqli_sql_exception: Unknown column 'nomor_ktp' in 'field list' in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `nomor_k...', 0)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nomor_k...')
+#2 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nomor_k...')
+#3 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `nomor_k...', Array, false)
+#4 C:\xampp\htdocs\notaris\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notaris\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\notaris\app\Controllers\Akta.php(88): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Akta->loadDataKlien()
+#8 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-28 02:12:19 --> Unknown column 'nomor_ktp' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `nomor_ktp`, `jenis_kelamin`
+FROM `tbl_klien`
+WHERE `nama_klien` = \'ddd\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nomor_ktp`, `jenis_kelamin`
+FROM `tbl_klien`
+WHERE `nama_klien` = \'ddd\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nomor_ktp`, `jenis_kelamin`
+FROM `tbl_klien`
+WHERE `nama_klien` = \'ddd\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `nomor_ktp`, `jenis_kelamin`
+FROM `tbl_klien`
+WHERE `nama_klien` = :nama_klien:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Akta.php(88): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->loadDataKlien()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 02:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 02:17:31 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 02:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 02:18:08 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 02:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 02:18:09 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 02:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 02:18:10 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 02:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 02:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 02:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 02:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 02:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 02:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 02:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:07:19 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:08:36 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:08:38 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:09:25 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:09:26 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:09:29 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:10:13 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:10:15 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:10:15 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:10:16 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:11:45 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:15:49 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:15:50 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:15:51 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:15:51 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:15:51 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:15:52 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:16:39 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:18:02 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:18:03 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:18:04 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:18:09 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:18:55 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:18:56 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:18:57 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:18:57 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:19:05 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:19:06 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:19:07 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:19:08 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:19:08 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:19:08 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:19:34 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:19:35 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:19:36 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:19:36 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:19:51 --> Call to undefined method App\Models\PermohonanModel::getKlienList
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(26): CodeIgniter\Model->__call('getKlienList', [])
+ 2 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:19:51 --> Call to undefined method App\Models\PermohonanModel::getKlienList
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(26): CodeIgniter\Model->__call('getKlienList', [])
+ 2 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:20:00 --> Call to undefined method App\Models\PermohonanModel::getKlienList
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(26): CodeIgniter\Model->__call('getKlienList', [])
+ 2 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:20:44 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:20:46 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\notaris\app\Models\PermohonanModel.php on line 77
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\PermohonanModel.php(77): CodeIgniter\BaseModel->findAll('nama_pemohon')
+ 2 APPPATH\Controllers\Akta.php(26): App\Models\PermohonanModel->getKlienList()
+ 3 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:21:34 --> Call to undefined method App\Models\PermohonanModel::getKlienList
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(26): CodeIgniter\Model->__call('getKlienList', [])
+ 2 APPPATH\Controllers\Akta.php(12): App\Controllers\Akta->getKlienList()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:22:17 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:22:18 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:22:19 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:22:20 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:23:24 --> Call to undefined method App\Models\KlienModel::getAllKlien
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(18): CodeIgniter\Model->__call('getAllKlien', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:23:26 --> Call to undefined method App\Models\KlienModel::getAllKlien
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(18): CodeIgniter\Model->__call('getAllKlien', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:26:04 --> Call to undefined method App\Models\KlienModel::getAllKlien
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(18): CodeIgniter\Model->__call('getAllKlien', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:26:05 --> Call to undefined method App\Models\KlienModel::getAllKlien
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(18): CodeIgniter\Model->__call('getAllKlien', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:26:06 --> Call to undefined method App\Models\KlienModel::getAllKlien
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(18): CodeIgniter\Model->__call('getAllKlien', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:26:10 --> Call to undefined method App\Models\KlienModel::getAllKlien
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(18): CodeIgniter\Model->__call('getAllKlien', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:27:13 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:27:14 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:27:15 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:27:39 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:27:43 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:38:09 --> Invalid file: "akta/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('akta/index.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('akta/index', [], true)
+ 3 APPPATH\Controllers\Akta.php(17): view('akta/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:38:37 --> Undefined variable $akta
+in APPPATH\Views\akta.php on line 64.
+ 1 APPPATH\Views\akta.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $akta', 'C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php', 64)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('akta', [], true)
+ 5 APPPATH\Controllers\Akta.php(17): view('akta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:40:09 --> Undefined variable $akta
+in APPPATH\Views\akta.php on line 64.
+ 1 APPPATH\Views\akta.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $akta', 'C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php', 64)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('akta', [], true)
+ 5 APPPATH\Controllers\Akta.php(21): view('akta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:40:10 --> Undefined variable $akta
+in APPPATH\Views\akta.php on line 64.
+ 1 APPPATH\Views\akta.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $akta', 'C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php', 64)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('akta', [], true)
+ 5 APPPATH\Controllers\Akta.php(21): view('akta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:40:24 --> Undefined variable $data
+in APPPATH\Views\akta.php on line 64.
+ 1 APPPATH\Views\akta.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php', 64)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('akta', [], true)
+ 5 APPPATH\Controllers\Akta.php(21): view('akta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:40:25 --> Undefined variable $data
+in APPPATH\Views\akta.php on line 64.
+ 1 APPPATH\Views\akta.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php', 64)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('akta', [], true)
+ 5 APPPATH\Controllers\Akta.php(21): view('akta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:42:54 --> Invalid file: "akta/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('akta/index.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('akta/index', [], true)
+ 3 APPPATH\Controllers\Akta.php(16): view('akta/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:43:07 --> Undefined array key "id"
+in APPPATH\Views\akta.php on line 99.
+ 1 APPPATH\Views\akta.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php', 99)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('akta', [], true)
+ 5 APPPATH\Controllers\Akta.php(16): view('akta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 03:44:19 --> Undefined array key "id"
+in APPPATH\Views\akta.php on line 98.
+ 1 APPPATH\Views\akta.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php', 98)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('akta', [], true)
+ 5 APPPATH\Controllers\Akta.php(16): view('akta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 03:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 03:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 04:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 04:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 04:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 04:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 04:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 04:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 04:59:22 --> syntax error, unexpected token ";", expecting "function" or "const"
+in APPPATH\Models\PermohonanModel.php on line 91.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\notaris\\app\\Models\\PermohonanModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PermohonanModel')
+ 3 APPPATH\Controllers\Akta.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PermohonanModel')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 05:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 05:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 08:30:01 --> Call to undefined method App\Models\AktaModel::getJenisAktaByIdPermohonan
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(37): CodeIgniter\Model->__call('getJenisAktaByIdPermohonan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->getJenisAkta()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 08:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 08:30:38 --> Call to undefined method App\Models\AktaModel::getJenisAktaByIdPermohonan
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(37): CodeIgniter\Model->__call('getJenisAktaByIdPermohonan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->getJenisAkta()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 08:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 08:54:27 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 09:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 09:00:36 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 09:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 09:00:37 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 09:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 09:00:57 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 09:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 09:00:58 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 09:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 09:00:59 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 09:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 09:04:57 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 09:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 09:04:58 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 09:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 09:04:59 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 09:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 09:05:02 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 09:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 09:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 09:05:08 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 09:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 09:05:25 --> Call to undefined method App\Models\PermohonanModel::getJenisAkta
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(21): CodeIgniter\Model->__call('getJenisAkta', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 09:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 09:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-28 10:20:07 --> mysqli_sql_exception: Unknown column 'nama_klien' in 'field list' in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ak...', 0)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 C:\xampp\htdocs\notaris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\notaris\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\notaris\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\notaris\app\Controllers\Akta.php(62): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Akta->tambahdata()
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+#10 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-28 10:20:08 --> Unknown column 'nama_klien' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `akta` (`jenis_akta`, `no_faktur`, `nama_klien`, `tanggal`, `nomor_urut_laci`, `total`) VALUES (\'jenis1\', \'121\', \'ddd\', \'22-07-09\', \'1\', \'200000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `akta` (`jenis_akta`, `no_faktur`, `nama_klien`, `tanggal`, `nomor_urut_laci`, `total`) VALUES (\'jenis1\', \'121\', \'ddd\', \'22-07-09\', \'1\', \'200000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `akta` (`jenis_akta`, `no_faktur`, `nama_klien`, `tanggal`, `nomor_urut_laci`, `total`) VALUES (\'jenis1\', \'121\', \'ddd\', \'22-07-09\', \'1\', \'200000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `akta` (`jenis_akta`, `no_faktur`, `nama_klien`, `tanggal`, `nomor_urut_laci`, `total`) VALUES (:jenis_akta:, :no_faktur:, :nama_klien:, :tanggal:, :nomor_urut_laci:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Akta.php(62): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->tambahdata()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 10:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-28 10:22:00 --> mysqli_sql_exception: Unknown column 'nama_klien' in 'field list' in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ak...', 0)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 C:\xampp\htdocs\notaris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\notaris\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\notaris\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\notaris\app\Controllers\Akta.php(62): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Akta->tambahdata()
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+#10 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-28 10:22:00 --> Unknown column 'nama_klien' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `akta` (`jenis_akta`, `no_faktur`, `nama_klien`, `tanggal`, `nomor_urut_laci`, `total`) VALUES (\'jenis1\', \'121\', \'ddd\', \'22-07-09\', \'1\', \'200000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `akta` (`jenis_akta`, `no_faktur`, `nama_klien`, `tanggal`, `nomor_urut_laci`, `total`) VALUES (\'jenis1\', \'121\', \'ddd\', \'22-07-09\', \'1\', \'200000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `akta` (`jenis_akta`, `no_faktur`, `nama_klien`, `tanggal`, `nomor_urut_laci`, `total`) VALUES (\'jenis1\', \'121\', \'ddd\', \'22-07-09\', \'1\', \'200000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `akta` (`jenis_akta`, `no_faktur`, `nama_klien`, `tanggal`, `nomor_urut_laci`, `total`) VALUES (:jenis_akta:, :no_faktur:, :nama_klien:, :tanggal:, :nomor_urut_laci:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Akta.php(62): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->tambahdata()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 10:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 10:24:11 --> Undefined array key "biaya"
+in APPPATH\Views\akta.php on line 74.
+ 1 APPPATH\Views\akta.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "biaya"', 'C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('akta', [], true)
+ 5 APPPATH\Controllers\Akta.php(20): view('akta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 10:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 10:24:33 --> Undefined array key "alamat"
+in APPPATH\Views\akta.php on line 129.
+ 1 APPPATH\Views\akta.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alamat"', 'C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php', 129)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('akta', [], true)
+ 5 APPPATH\Controllers\Akta.php(20): view('akta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 10:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 10:24:51 --> Undefined array key "nama_pemohon"
+in APPPATH\Views\akta.php on line 179.
+ 1 APPPATH\Views\akta.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pemohon"', 'C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php', 179)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notaris\\app\\Views\\akta.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('akta', [], true)
+ 5 APPPATH\Controllers\Akta.php(20): view('akta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 10:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-28 10:33:05 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`notaris`.`tbl_klien`, CONSTRAINT `tbl_klien_ibfk_1` FOREIGN KEY (`nama_klien`) REFERENCES `tbl_permohonan` (`nama_pemohon`)) in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\notaris\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\notaris\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\notaris\app\Controllers\Permohonan.php(68): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Permohonan->deleteData('10')
+#8 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permohonan))
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-28 10:33:05 --> Cannot delete or update a parent row: a foreign key constraint fails (`notaris`.`tbl_klien`, CONSTRAINT `tbl_klien_ibfk_1` FOREIGN KEY (`nama_klien`) REFERENCES `tbl_permohonan` (`nama_pemohon`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tbl_permohonan`
+WHERE `id_permohonan` IN (\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_permohonan`
+WHERE `id_permohonan` IN (\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_permohonan`
+WHERE `id_permohonan` IN (\'10\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_permohonan`
+WHERE `id_permohonan` IN :id_permohonan:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Permohonan.php(68): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Permohonan->deleteData('10')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permohonan))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 10:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-28 10:49:32 --> Call to undefined method App\Models\AktaModel::updatedata
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Akta.php(82): CodeIgniter\Model->__call('updatedata', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 10:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 10:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,100 @@
+INFO - 2023-07-31 02:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 02:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 02:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 02:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 02:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 02:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 02:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 02:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 02:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 02:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 02:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 02:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 02:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 02:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 02:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 03:05:30 --> Undefined variable $id_akta
+in APPPATH\Models\AktaModel.php on line 57.
+ 1 APPPATH\Models\AktaModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_akta', 'C:\\xampp\\htdocs\\notaris\\app\\Models\\AktaModel.php', 57)
+ 2 APPPATH\Controllers\Akta.php(66): App\Models\AktaModel->updatedata('jenis 1', '1332/1333', '16578997', 'ddd', '2023-07-04', '1', '20000.00')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->updatedata()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 03:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 03:06:43 --> Too few arguments to function App\Models\AktaModel::updatedata(), 7 passed in C:\xampp\htdocs\notaris\app\Controllers\Akta.php on line 66 and exactly 8 expected
+in APPPATH\Models\AktaModel.php on line 42.
+ 1 APPPATH\Controllers\Akta.php(66): App\Models\AktaModel->updatedata('jenis 1', '1332/1333', '16578997', 'ddd', '2023-07-04', '1', '20000.00')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 03:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 03:07:10 --> Too few arguments to function App\Models\AktaModel::updatedata(), 7 passed in C:\xampp\htdocs\notaris\app\Controllers\Akta.php on line 66 and exactly 9 expected
+in APPPATH\Models\AktaModel.php on line 42.
+ 1 APPPATH\Controllers\Akta.php(66): App\Models\AktaModel->updatedata('jenis 1', '1332/1333', '16578997', 'ddd', '2023-07-04', '1', '20000.00')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 03:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-31 03:08:08 --> Too few arguments to function App\Models\AktaModel::updatedata(), 7 passed in C:\xampp\htdocs\notaris\app\Controllers\Akta.php on line 66 and exactly 8 expected
+in APPPATH\Models\AktaModel.php on line 42.
+ 1 APPPATH\Controllers\Akta.php(66): App\Models\AktaModel->updatedata('jenis 1', '1332/1333', '16578997', 'ddd', '2023-07-04', '1', '20000.00')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 03:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-31 03:09:11 --> mysqli_sql_exception: Unknown column 'nomor_faktur' in 'field list' in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `akta` S...', 0)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `akta` S...')
+#2 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `akta` S...')
+#3 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `akta` S...', Array, false)
+#4 C:\xampp\htdocs\notaris\app\Models\AktaModel.php(57): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\notaris\app\Controllers\Akta.php(67): App\Models\AktaModel->updatedata('14', 'jenis 1', '1332/1333', '16578997', 'ddd', '2023-07-04', '1', '20000.00')
+#6 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Akta->updatedata()
+#7 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+#8 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-31 03:09:11 --> Unknown column 'nomor_faktur' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `akta` SET `jenis_akta` = \'jenis 1\', `nomor_faktur` = \'1332/1333\', `nomor_akta` = \'16578997\', `nama_pemohon` = \'ddd\', `tanggal` = \'2023-07-04\', `nomor_urut_laci` = \'1\', `total` = \'20000.00\'
+WHERE `id_akta` = \'14\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `akta` SET `jenis_akta` = \'jenis 1\', `nomor_faktur` = \'1332/1333\', `nomor_akta` = \'16578997\', `nama_pemohon` = \'ddd\', `tanggal` = \'2023-07-04\', `nomor_urut_laci` = \'1\', `total` = \'20000.00\'
+WHERE `id_akta` = \'14\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `akta` SET `jenis_akta` = \'jenis 1\', `nomor_faktur` = \'1332/1333\', `nomor_akta` = \'16578997\', `nama_pemohon` = \'ddd\', `tanggal` = \'2023-07-04\', `nomor_urut_laci` = \'1\', `total` = \'20000.00\'
+WHERE `id_akta` = \'14\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `akta` SET `jenis_akta` = :jenis_akta:, `nomor_faktur` = :nomor_faktur:, `nomor_akta` = :nomor_akta:, `nama_pemohon` = :nama_pemohon:, `tanggal` = :tanggal:, `nomor_urut_laci` = :nomor_urut_laci:, `total` = :total:
+WHERE `id_akta` = :id_akta:', [...], false)
+ 5 APPPATH\Models\AktaModel.php(57): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Akta.php(67): App\Models\AktaModel->updatedata('14', 'jenis 1', '1332/1333', '16578997', 'ddd', '2023-07-04', '1', '20000.00')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Akta->updatedata()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akta))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-31 03:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

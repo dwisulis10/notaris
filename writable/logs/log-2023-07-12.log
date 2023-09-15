@@ -1,0 +1,462 @@
+ERROR - 2023-07-12 13:47:01 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'notaris', 3306, '', 0)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\notaris\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notaris\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\notaris\app\Controllers\Auth.php(74): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Auth->login_process()
+#8 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\notaris\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\notaris\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\notaris\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\notaris\app\Controllers\Auth.php(74): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Auth->login_process()
+#7 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\notaris\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-12 13:47:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user_username` = :user_username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth.php(74): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login_process()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\notaris\\public\\index.php')
+ERROR - 2023-07-12 13:47:35 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'notaris', 3306, '', 0)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\notaris\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notaris\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\notaris\app\Controllers\Auth.php(74): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Auth->login_process()
+#8 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\notaris\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\notaris\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\notaris\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\notaris\app\Controllers\Auth.php(74): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Auth->login_process()
+#7 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\notaris\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-12 13:47:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user_username` = :user_username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth.php(74): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login_process()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\notaris\\public\\index.php')
+ERROR - 2023-07-12 13:50:36 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'notaris', 3306, '', 0)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\notaris\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notaris\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', Array, NULL, 'user_username')
+#6 C:\xampp\htdocs\notaris\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', Array, Array)
+#7 C:\xampp\htdocs\notaris\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\notaris\app\Controllers\Auth.php(25): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+#10 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\notaris\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\notaris\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\notaris\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', Array, NULL, 'user_username')
+#5 C:\xampp\htdocs\notaris\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', Array, Array)
+#6 C:\xampp\htdocs\notaris\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\notaris\app\Controllers\Auth.php(25): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notaris\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-12 13:50:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `user_username` = :user_username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', [...], null, 'user_username')
+ 5 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Auth.php(25): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\notaris\\public\\index.php')
+ERROR - 2023-07-12 13:51:53 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'notaris', 3306, '', 0)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\notaris\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notaris\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', Array, NULL, 'user_username')
+#6 C:\xampp\htdocs\notaris\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', Array, Array)
+#7 C:\xampp\htdocs\notaris\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\notaris\app\Controllers\Auth.php(25): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+#10 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\notaris\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\notaris\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\notaris\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', Array, NULL, 'user_username')
+#5 C:\xampp\htdocs\notaris\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', Array, Array)
+#6 C:\xampp\htdocs\notaris\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\notaris\app\Controllers\Auth.php(25): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notaris\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-12 13:51:53 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `user_username` = :user_username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', [...], null, 'user_username')
+ 5 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Auth.php(25): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\notaris\\public\\index.php')
+ERROR - 2023-07-12 13:52:12 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'notaris', 3306, '', 0)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\notaris\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notaris\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', Array, NULL, 'user_username')
+#6 C:\xampp\htdocs\notaris\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', Array, Array)
+#7 C:\xampp\htdocs\notaris\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\notaris\app\Controllers\Auth.php(25): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+#10 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\notaris\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\notaris\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\notaris\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', Array, NULL, 'user_username')
+#5 C:\xampp\htdocs\notaris\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', Array, Array)
+#6 C:\xampp\htdocs\notaris\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\notaris\app\Controllers\Auth.php(25): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notaris\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-12 13:52:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `user_username` = :user_username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', [...], null, 'user_username')
+ 5 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Auth.php(25): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\notaris\\public\\index.php')
+ERROR - 2023-07-12 13:53:29 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'notaris', 3306, '', 0)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\notaris\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notaris\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', Array, NULL, 'user_username')
+#6 C:\xampp\htdocs\notaris\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', Array, Array)
+#7 C:\xampp\htdocs\notaris\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\notaris\app\Controllers\Auth.php(25): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+#10 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\notaris\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\notaris\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\notaris\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', Array, NULL, 'user_username')
+#5 C:\xampp\htdocs\notaris\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', Array, Array)
+#6 C:\xampp\htdocs\notaris\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\notaris\app\Controllers\Auth.php(25): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notaris\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-12 13:53:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `user_username` = :user_username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', [...], null, 'user_username')
+ 5 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Auth.php(25): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\notaris\\public\\index.php')
+INFO - 2023-07-12 13:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-12 13:53:58 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'notaris', 3306, '', 0)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\notaris\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notaris\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', Array, NULL, 'user_username')
+#6 C:\xampp\htdocs\notaris\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', Array, Array)
+#7 C:\xampp\htdocs\notaris\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\notaris\app\Controllers\Auth.php(25): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+#10 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\notaris\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\notaris\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\notaris\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', Array, NULL, 'user_username')
+#5 C:\xampp\htdocs\notaris\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', Array, Array)
+#6 C:\xampp\htdocs\notaris\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\notaris\app\Controllers\Auth.php(25): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notaris\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-12 13:53:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `user_username` = :user_username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', [...], null, 'user_username')
+ 5 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Auth.php(25): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\notaris\\public\\index.php')
+ERROR - 2023-07-12 14:01:03 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'notaris', 3306, '', 0)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\notaris\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notaris\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', Array, NULL, 'user_username')
+#6 C:\xampp\htdocs\notaris\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', Array, Array)
+#7 C:\xampp\htdocs\notaris\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\notaris\app\Controllers\Auth.php(25): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+#10 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\notaris\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\notaris\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\notaris\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', Array, NULL, 'user_username')
+#5 C:\xampp\htdocs\notaris\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', Array, Array)
+#6 C:\xampp\htdocs\notaris\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\notaris\app\Controllers\Auth.php(25): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notaris\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-12 14:01:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `user_username` = :user_username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', [...], null, 'user_username')
+ 5 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Auth.php(25): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\notaris\\public\\index.php')
+INFO - 2023-07-12 14:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-12 14:01:36 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'notaris', 3306, '', 0)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\notaris\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notaris\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', Array, NULL, 'user_username')
+#6 C:\xampp\htdocs\notaris\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', Array, Array)
+#7 C:\xampp\htdocs\notaris\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\notaris\app\Controllers\Auth.php(25): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+#10 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\notaris\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\notaris\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\notaris\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\notaris\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\notaris\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\notaris\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', Array, NULL, 'user_username')
+#5 C:\xampp\htdocs\notaris\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', Array, Array)
+#6 C:\xampp\htdocs\notaris\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\notaris\app\Controllers\Auth.php(25): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\notaris\system\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+#9 C:\xampp\htdocs\notaris\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 C:\xampp\htdocs\notaris\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notaris\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notaris\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-12 14:01:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `user_username` = :user_username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('faisalabdau', 'user_username', [...], null, 'user_username')
+ 5 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('user_username', 'user_username', 'faisalabdau', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Auth.php(25): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register_process()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\notaris\\public\\index.php')
+INFO - 2023-07-12 14:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 14:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
